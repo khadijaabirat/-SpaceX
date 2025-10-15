@@ -112,22 +112,20 @@ body {
   margin-bottom: 1.5rem;
   font-size: 2rem;
 }
-/* Video background */
 .background-video {
-  position: fixed;   /* يبقى ثابت */
+  position: fixed;   
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* يغطي كامل الصفحة */
-  z-index: -1;       /* تحت كل العناصر */
+  object-fit: cover;  
+  z-index: -1;       
 }
 
-/* العناصر فوق الفيديو */
-.navbar, .section, footer {
+ .navbar, .section, footer {
   position: relative;
   z-index: 1;
-  color: white;       /* نصوص واضحة */
+  color: white;      
 }
 
 body::before {
@@ -137,8 +135,8 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.3); /* شفافية خفيفة */
-  z-index: 0; /* تحت العناصر، فوق الفيديو */
+  background: rgba(0,0,0,0.3);  
+  z-index: 0; 
 }
 
 
